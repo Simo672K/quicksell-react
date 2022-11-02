@@ -1,14 +1,16 @@
 import Container from "./utils/Container";
 import LayoutTemplate from "./layouts/LayoutTemplate";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import MainPage from "./layouts/MainPage";
 
 function App() {
   return (
     <BrowserRouter>
       <LayoutTemplate>
-        <Container>
-          <h1 className="text-3xl font-bold">Hello, there!</h1>
-        </Container>
+        <Routes>
+          <Route path="/" element={<MainPage />} />
+        </Routes>
+        <Container></Container>
       </LayoutTemplate>
     </BrowserRouter>
   );
