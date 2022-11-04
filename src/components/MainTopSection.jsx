@@ -18,65 +18,69 @@ function MainTopSection() {
     {
       catId: 0,
       catTitle: "Fourniture",
-      catImg: FournitureImg
+      catImg: FournitureImg,
     },
     {
       catId: 1,
       catTitle: "Appliance",
-      catImg: ApplianceImg
+      catImg: ApplianceImg,
     },
     {
       catId: 2,
       catTitle: "Mobile Phone",
-      catImg: MobileImg
+      catImg: MobileImg,
     },
     {
       catId: 3,
       catTitle: "Tablet",
-      catImg: TabletImg
+      catImg: TabletImg,
     },
     {
       catId: 4,
       catTitle: "Laptop",
-      catImg: LaptopImg
+      catImg: LaptopImg,
     },
     {
       catId: 5,
       catTitle: "mart Watch",
-      catImg: SmartWatchImg
+      catImg: SmartWatchImg,
     },
     {
       catId: 6,
       catTitle: "Game Console",
-      catImg: GameConsoleImg
+      catImg: GameConsoleImg,
     },
     {
       catId: 7,
       catTitle: "Bulk Items",
-      catImg: BulkItemsImg
+      catImg: BulkItemsImg,
     },
-  ]
+  ];
   return (
-    <section className="bg-gray-50 rounded-br-[3rem] rounded-bl-[3rem] shadow-lg pt-4 pb-16 mb-8">
+    <section className="bg-gray-50 rounded-br-[3rem] rounded-bl-[3rem] shadow-lg pt-4 pb-16">
       <CategoriesContainer>
         <Grid className="grid-cols-4 gap-4 w-fit mx-auto mt-10">
-          {
-            categories.map(cat =>
-              <CategoryCard key={cat.catId} catImg={cat.catImg} catTitle={cat.catTitle} />
-            )
-          }
+          {categories.map((cat) => (
+            <CategoryCard
+              key={cat.catId}
+              catImg={cat.catImg}
+              catTitle={cat.catTitle}
+            />
+          ))}
         </Grid>
       </CategoriesContainer>
-      <div className="bg-steps bg-center bg-no-repeat h-40 mt-10">
+      <div className="bg-steps bg-center bg-no-repeat h-40 mt-16 mb-4">
         <Container className="h-full flex items-end justify-center">
-          <h2 className="text-3xl font-bold text-purple-900 mb-10">Selling in 3 easy steps</h2>
+          <h2 className="text-3xl font-bold text-purple-900 mb-10">
+            Selling in 3 easy steps
+          </h2>
         </Container>
       </div>
       <StepsContainer>
         <StepsDivider />
       </StepsContainer>
     </section>
-  )
+  );
 }
 
-export default MainTopSection
+export default MainTopSection;

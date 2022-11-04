@@ -2,9 +2,9 @@ import Container from "../utils/Container";
 
 function CategoriesContainer({ children }) {
   return (
-    <aticle>
+    <article>
       <Container>{children}</Container>
-    </aticle>
+    </article>
   );
 }
 export default CategoriesContainer;

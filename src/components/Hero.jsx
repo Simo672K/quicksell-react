@@ -8,7 +8,7 @@ import OpenDoorIcon from "../assets/icons/open-door.svg";
 
 function Hero() {
   return (
-    <Container className="flex-grow px-10">
+    <Container className="flex-grow px-20">
       <Flex className="items-end h-full">
         <article className="z-10 mb-5">
           <HeroText />

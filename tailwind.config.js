@@ -14,13 +14,16 @@ module.exports = {
     extend: {
       backgroundPosition: {
         custom: "0 25%",
+        "about-pos": "right 40%",
       },
       boxShadow: {
         custom: "0px -29px 60px #fff, 0px -10px 10px #3333334d",
       },
       backgroundImage: {
-        "steps": "url(./assets/images/logoblured.png)"
-      }
+        steps: "url(./assets/images/logoblured.png)",
+        about: "url(./assets/images/aboutimg.png)",
+        faqs: "url(./assets/images/faqsbg.png)",
+      },
     },
   },
   plugins: [customBg],

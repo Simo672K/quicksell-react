@@ -1,9 +1,7 @@
-import Container from "../utils/Container"
+import Container from "../utils/Container";
 
 function StepsContainer({ children }) {
-  return (
-    <Container>{children}</Container>
-  )
+  return <Container className="mb-8">{children}</Container>;
 }
 
-export default StepsContainer
+export default StepsContainer;
