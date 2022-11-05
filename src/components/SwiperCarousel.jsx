@@ -4,17 +4,19 @@ import SwiperSlideCard from "./SwiperSlideCard";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import "../assets/css/swiperTheme.css";
 
 function SwiperCarousel() {
   return (
-    <div>
+    <div className="mt-8">
       <Swiper
-        spaceBetween={50}
+        autoplay={true}
+        spaceBetween={0}
         slidesPerView={3}
-        modules={[Pagination, Navigation]}
+        modules={[Navigation, Pagination]}
         pagination={{ clickable: true }}
         loop={true}
-        Navigation
+        navigation
       >
         <SwiperSlide>
           <SwiperSlideCard />

@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --swiper-theme-color: #6b2695 !important;
+}
+
+.swiper-button-next::after {
+  content: none !important;
+}
+
+.swiper-button-next {
+  width: 3rem !important;
+  background: url(./assets/icons/swipercontrollerright.svg) center no-repeat;
+}
+
+.swiper-button-prev::after {
+  content: none !important;
+}
+
+.swiper-button-prev {
+  width: 3rem !important;
+  background: url(./assets/icons/swipercontrollerleft.svg) center no-repeat;
+}

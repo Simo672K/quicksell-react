@@ -3,7 +3,7 @@ import SwiperContainer from "./SwiperContainer";
 
 function TestimonialSection() {
   return (
-    <section className="py-36">
+    <section className="py-36 bg-gray-50 px-20">
       <Container>
         <h3 className="text-3xl font-bold w-80">
           Check what our clients say about us

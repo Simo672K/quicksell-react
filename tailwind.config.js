@@ -23,6 +23,8 @@ module.exports = {
         steps: "url(./assets/images/logoblured.png)",
         about: "url(./assets/images/aboutimg.png)",
         faqs: "url(./assets/images/faqsbg.png)",
+        "swiper-right-btn": "url(./assets/icons/swipercontrollerright.svg)",
+        "swiper-left-btn": "url(./assets/icons/swipercontrollerleft.scg)",
       },
     },
   },
