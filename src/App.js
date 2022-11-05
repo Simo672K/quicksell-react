@@ -1,14 +1,18 @@
 import Container from "./utils/Container";
 import LayoutTemplate from "./layouts/LayoutTemplate";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import MainPage from "./layouts/MainPage";
+import MainPage from "./pages/MainPage";
+import CategoriesPage from "./pages/CategoriesPage";
 
 function App() {
   return (
     <BrowserRouter>
       <LayoutTemplate>
         <Routes>
-          <Route path="/" element={<MainPage />} />
+          <Route path="/">
+            <Route index element={<MainPage />} />
+            <Route path="categories" element={<CategoriesPage />} />
+          </Route>
         </Routes>
         <Container></Container>
       </LayoutTemplate>

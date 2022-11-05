@@ -1,4 +1,5 @@
 import { Route, Routes } from "react-router-dom";
+import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 
@@ -13,7 +14,7 @@ function LayoutTemplate({ children }) {
             element={
               <>
                 <Hero />
-                <div className="pt-6 shadow-custom bg-gray-50 rounded-tl-full rounded-tr-full">
+                <div className="pt-6 shadow-custom bg-gray-50 rounded-t-[5rem]">
                   <h2 className="text-3xl text-center font-bold text-purple-800">
                     What do you want to sell?
                   </h2>
@@ -24,6 +25,7 @@ function LayoutTemplate({ children }) {
         </Routes>
       </header>
       <main>{children}</main>
+      <Footer />
     </>
   );
 }

@@ -18,6 +18,7 @@ module.exports = {
       },
       boxShadow: {
         custom: "0px -29px 60px #fff, 0px -10px 10px #3333334d",
+        top: "0px -5px 25px #5151514d",
       },
       backgroundImage: {
         steps: "url(./assets/images/logoblured.png)",

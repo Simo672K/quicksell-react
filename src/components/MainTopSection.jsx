@@ -57,7 +57,7 @@ function MainTopSection() {
     },
   ];
   return (
-    <section className="bg-gray-50 rounded-br-[3rem] rounded-bl-[3rem] shadow-lg pt-4 pb-16">
+    <section className="bg-gray-50 rounded-b-[5rem] shadow-lg pt-4 pb-16">
       <CategoriesContainer>
         <Grid className="grid-cols-4 gap-4 w-fit mx-auto mt-10">
           {categories.map((cat) => (
