@@ -25,13 +25,13 @@ function CategoriesPage() {
             <TabBody tag="fourniture">
               <TabPageContent />
             </TabBody>
-            <TabBody tag="appliances">Appliances tab</TabBody>
-            <TabBody tag="mobile phone">Mobile Phone tab</TabBody>
-            <TabBody tag="tablet">Tablet tab</TabBody>
-            <TabBody tag="laptop">Laptop tab</TabBody>
-            <TabBody tag="smart watch">Smart Watch tab</TabBody>
-            <TabBody tag="game console">Game Console tab</TabBody>
-            <TabBody tag="bulk items">Bulk Items tab</TabBody>
+            <TabBody tag="appliances"><TabPageContent /></TabBody>
+            <TabBody tag="mobile phone"><TabPageContent /></TabBody>
+            <TabBody tag="tablet"><TabPageContent /></TabBody>
+            <TabBody tag="laptop"><TabPageContent /></TabBody>
+            <TabBody tag="smart watch"><TabPageContent /></TabBody>
+            <TabBody tag="game console"><TabPageContent /></TabBody>
+            <TabBody tag="bulk items"><TabPageContent /></TabBody>
           </TabsBodies>
         </TabsContainer>
       </Container>
