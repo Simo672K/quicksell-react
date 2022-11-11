@@ -26,7 +26,10 @@ module.exports = {
         faqs: "url(./assets/images/faqsbg.png)",
         "swiper-right-btn": "url(./assets/icons/swipercontrollerright.svg)",
         "swiper-left-btn": "url(./assets/icons/swipercontrollerleft.scg)",
-      },
+        breadcrumb: `url("data:image/svg+xml,%3Csvg width='10' height='17' viewBox='0 0 10 17' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L8.80769 8.4359L1 15.5' stroke='%236B2695' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A")`,
+        placeholder: 'url(./assets/images/imageplaceholder.png)',
+        'placeholder-min': 'url(./assets/images/placeholdermin.png)',
+      }
     },
   },
   plugins: [customBg],
